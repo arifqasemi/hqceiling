@@ -1,0 +1,19 @@
+.about-section{
+    background-color: #f9f3ee;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+.statistic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212531;
+    width: 70%;
+    /* gap: 50px; */
+    height: 30vh;
+   
+}

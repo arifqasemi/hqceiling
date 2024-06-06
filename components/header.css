@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    /* background-color: red; */
+    background-color: #f9f3ee;
     justify-content: space-around;
     height: 80px;
 }

@@ -1,0 +1,54 @@
+.project-section{
+    height: auto;
+    padding: 0px 70px;
+    margin-bottom: 60px;
+}
+
+.project-section .projects{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* margin-bottom: 40px; */
+}
+
+.projects .project{
+    background-image: url('../assets/images/about-1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 66vh;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Changed from 'end' to 'flex-end' */
+    position: relative; /* Added for absolute positioning of the title */
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.projects .project:hover {
+    transform: scale(1.04); /* Zoom in effect */
+}
+
+.projects .project .project-title{
+    background-color: white;
+    width: 40%;
+    height: 76px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -70px; 
+    opacity: 0;
+    transition: all 0.8s ease;
+    cursor: pointer; /* Smooth transition */
+}
+
+.projects .project:hover .project-title{
+    bottom: 15px; /* Position it at the bottom with margin */
+    opacity: 1; /* Make it visible */
+}

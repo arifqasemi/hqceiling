@@ -1,0 +1,15 @@
+.order-section{
+    padding: 0px 70px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 38px;
+
+}
+
+.order-content{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px;
+    width: 100%; */
+    /* background-color: red; */
+}

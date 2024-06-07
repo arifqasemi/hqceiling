@@ -1,6 +1,6 @@
 .about-section{
     background-color: #f9f3ee;
-    height: 90vh;
+    height:150vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,4 +16,22 @@
     /* gap: 50px; */
     height: 30vh;
    
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width:90%;
+    position:relative;
+    top:70px;
+}
+
+.content .image-container{
+    display: flex;
+}
+
+.small-icon{
+    font-size: 16px;
 }

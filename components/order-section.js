@@ -1,6 +1,8 @@
 import React from 'react'
 import  './order-section.css'
 import Prograss from './prograss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function OrderSection() {
   return (
     <div className='order-section'>
@@ -10,6 +12,10 @@ function OrderSection() {
   
         <div style={{maxWidth:'40%',}}>
          <p>Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et dolore sed do magna aliqua.</p>
+         <div style={{display:'flex',marginTop:20,gap:5}}>
+          <FontAwesomeIcon icon={faEnvelope} size={29} style={{marginTop:2,cursor:'pointer'}}/>
+          <p style={{cursor:'pointer'}}>hadiqasemi@hqceiling.com</p>
+         </div>
         </div>
 
         <div style={{display:'flex',flexDirection:'column',width:'50%',gap:30}}>

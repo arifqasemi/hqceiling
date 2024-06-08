@@ -1,0 +1,14 @@
+.video-section {
+    background-image: url(../assets/images/video-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 150px;
+    /* margin-bottom: 20px; */
+}
+
+.video-section .over-lay{
+    height: 100%;
+    width: 100%;
+    background-color:#1717173e;
+}

@@ -2,11 +2,12 @@
     background-color: #f9f3ee;
     height: auto;
     padding-top: 100px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
 }
 
 .testimonial-container{
@@ -14,8 +15,9 @@
     flex-direction: column;
     height: 300px;
     background-color: white;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    width: 350px;
 }
 
 .testimonial-container .testimonial{
@@ -23,8 +25,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: start;
+    /* text-align: start; */
     padding-left: 40px;
+    padding-right: 40px;
     /* background-color: red; */
 }
 
@@ -45,11 +48,8 @@
 .testimonial-section .mySwiper{
     overflow: visible;
     margin-top: 50px;
-    /* width: 80%; */
-}
-
-.mySwiper-slide1{
-    margin-right: 20px;
-    /* background-color: blue; */
+    /* background-color: red; */
+ 
 
 }
+

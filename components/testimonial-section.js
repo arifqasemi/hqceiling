@@ -11,34 +11,32 @@ function Testimonial() {
   return (
     <div className='testimonial-section' style={{paddingBottom:20,}}>
         <div className='testimonial-head' style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',gap:20}}>
-            <p>TESTIMONIAL</p>
+            <p style={{color:'#797c7f'}}>TESTIMONIAL</p>
            <h2 style={{fontSize:45,textAlign:'center'}}>Happy Client Says<br/>About Us</h2> 
         </div>
-        <div className='swiper-container' style={{width:'97%',overflow:'hidden'}}>
 
    <Swiper slidesPerView={3}    pagination={{
           dynamicBullets: true,clickable:true,el:'.custom-dots'
         }} autoplay={{  delay: 5000,}} modules={[Pagination,Autoplay]} className="mySwiper">
-          <SwiperSlide className='mySwiper-slide1'>
+          <SwiperSlide >
               <TestimonailSlide/> 
           </SwiperSlide>
-          <SwiperSlide className='mySwiper-slide1'>
+          <SwiperSlide >
               <TestimonailSlide/> 
           </SwiperSlide>
-          <SwiperSlide className='mySwiper-slide1'>
+          <SwiperSlide >
               <TestimonailSlide/> 
           </SwiperSlide>
-          <SwiperSlide className='mySwiper-slide1'>
+          <SwiperSlide >
               <TestimonailSlide/> 
           </SwiperSlide>
-          <SwiperSlide className='mySwiper-slide1'>
+          <SwiperSlide >
               <TestimonailSlide/> 
           </SwiperSlide>
           
         </Swiper>
-        <div className="custom-dots "  slot="pagination" ></div>
+        <div className="custom-dots "  slot="pagination" style={{marginTop:10}}></div>
 
-        </div>
 
     </div>
   )

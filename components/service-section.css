@@ -16,6 +16,10 @@
     margin-bottom: 100px;
 }
 
+.service:hover .flag{
+    background-color: black;
+}
+
 .flag{
     height:18vh;
     width:30%;
@@ -24,7 +28,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 100px; */
-    /* position:absolute;
-    top:-60px */
+
+}
+
+
+.arrow{
+    transform: translateX(-550%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.read-more {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.service:hover .read-more {
+    opacity: 1;
+    transform: translateX(0);
+}
+.service:hover .arrow{
+    transform: translateX(0);
 }

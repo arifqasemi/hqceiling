@@ -1,0 +1,17 @@
+.blog-container{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* .blog-container .posts-wrapper{
+   display:flex;
+   flex-wrap:wrap;
+   width:90%;
+   justify-content: space-between;
+} */

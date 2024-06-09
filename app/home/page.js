@@ -8,6 +8,8 @@ import OrderSection from '../../components/order-section'
 import VideoSection from '../../components/video-section'
 import TestimonialSection from '../../components/testimonial-section'
 import TeamSection from '../../components/team-section'
+import BlogSection from '../../components/blog-section'
+import Space from '../../components/space'
 export const metadata = {
   title: 'About Us - My Next.js App',
   description: 'Learn more about us on the About Us page.',
@@ -28,7 +30,9 @@ export default function Home() {
         <OrderSection/>
         <VideoSection/>
         <TestimonialSection/>
+        <Space/>
         <TeamSection/>
+        <BlogSection/>
       </div>
     </>
   );

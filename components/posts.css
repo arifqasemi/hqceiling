@@ -1,0 +1,17 @@
+.post-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-; */
+    /* align-items: center; */
+    width: 350px;
+    height: 400px;
+    gap: 12px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.post-container .post-image{
+    width: 350px;
+    height: 200px;
+}

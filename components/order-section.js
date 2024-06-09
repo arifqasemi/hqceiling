@@ -6,15 +6,16 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function OrderSection() {
   return (
     <div className='order-section'>
-      <p style={{textTransform:'uppercase',marginBottom:30}}>Custom Order</p>
+      <p style={{textTransform:'uppercase',marginBottom:30,color:'#797c7f',color:'#797c7f'}}>Custom Order</p>
       <h3 style={{fontSize:38,fontWeight:700,marginTop:10,marginBottom:30}}>We Are Committed <br/>to Best Service</h3>
       <div className='order-content'>
-  
         <div style={{maxWidth:'40%',}}>
-         <p>Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et dolore sed do magna aliqua.</p>
-         <div style={{display:'flex',marginTop:20,gap:5}}>
-          <FontAwesomeIcon icon={faEnvelope} size={29} style={{marginTop:2,cursor:'pointer'}}/>
-          <p style={{cursor:'pointer'}}>hadiqasemi@hqceiling.com</p>
+         <p style={{fontSize:16,color:'#797c7f'}}>Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et dolore sed do magna aliqua.</p>
+         <div style={{display:'flex',marginTop:20,gap:5,alignItems:'center'}}>
+          <div style={{height:50,width:50,backgroundColor:'red',borderRadius:'50%',display:'flex',justifyContent:'center',alignItems:'center'}}>
+            <FontAwesomeIcon icon={faEnvelope} size={29} style={{marginTop:2,cursor:'pointer',color:'white'}}/>
+          </div>
+          <p style={{cursor:'pointer',fontSize:20,fontWeight:500}}>hadiqasemi@hqceiling.com</p>
          </div>
         </div>
 

@@ -27,4 +27,20 @@
     margin-bottom: 20px;
     background-position: center;
     background-size: cover;
+    cursor: pointer;
+}
+
+.team-container .image-team .team-overly{
+    height: 250px;
+    width: 100%;
+    background-color: #fe584f96;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+}
+
+.team-container .image-team:hover .team-overly{
+    opacity: 1;
 }

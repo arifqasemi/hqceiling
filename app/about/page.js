@@ -7,6 +7,8 @@ import Image from 'next/image';
 import HeroImage from '../../assets/images/slide1.jpg'
 import OrderSection from '@/components/order-section';
 import TeamSection from '@/components/team-section';
+import Space from '@/components/space';
+
 
 function Page() {
   return (
@@ -17,6 +19,7 @@ function Page() {
       </div>
     </div>
     <AboutSection/>
+    <Space/>
     <OrderSection/>
     {/* <TeamSection/> */}
    </>

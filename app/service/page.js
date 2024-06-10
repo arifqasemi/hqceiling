@@ -12,7 +12,7 @@ function Page() {
    <>
    <div style={{height:'60vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
       <div style={{height:'60vh',backgroundColor:'#00000082',display:'flex',justifyContent:'center',alignItems:'center'}}>
-         <h3 style={{color:'white',fontSize:55,fontWeight:600}}>About Us</h3>
+         <h3 style={{color:'white',fontSize:55,fontWeight:600}}>Services</h3>
       </div>
     </div>
     <div style={{backgroundColor:'#f9f3ee',width:'100%'}}>

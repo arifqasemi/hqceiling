@@ -4,11 +4,10 @@
     justify-content: space-around;
     height: 80px;
 }
-.navbar .nav-links li{
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
-    font-weight: 700;
+
+
+
+.border {
     border-bottom: solid 2px black;
 
 }

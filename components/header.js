@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import Image from 'next/image'
 import logo from '../assets/images/roof.png'
+import Link from 'next/link'
 
 function Header() {
   return (
@@ -11,10 +12,10 @@ function Header() {
       </div>
  
       <div className='nav-links'>
-      <li>Home</li>
-      <li>Service</li>
-      <li>About</li>
-      <li>Contact</li>
+      <Link href='/home' className='link border'>Home</Link>
+      <Link href='/service'>Service</Link>
+      <Link href='/about'>About</Link>
+      <Link href='/contact'>Contact</Link>
       </div>
     </nav>
   )

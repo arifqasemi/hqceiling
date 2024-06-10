@@ -73,10 +73,10 @@ function TeamSection() {
         </div>
         <div className='team-content-container'>
         <p style={{color:'#797c7f',color:'#797c7f'}}>Our Team</p>
-        <h3 style={{fontSize:45,color:'white'}}>Meet Our talent &
+        <h3 className='team-heading'>Meet Our talent &
         Professional Roofers</h3>
         <p style={{color:'#797c7f'}}>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        <button style={{height:45,width:'30%',backgroundColor:'#fe574f',border:'none',fontWeight:600,color:'white',textTransform:'uppercase',cursor:'pointer'}}>Learn More</button>
+        <button className='team-button'>Learn More</button>
         </div>
     </div>
   )

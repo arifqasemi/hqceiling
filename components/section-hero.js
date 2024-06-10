@@ -23,6 +23,8 @@ function SectionHero() {
           delay: 5000,
           disableOnInteraction: false,
         }}
+        speed={700}
+        loop={true}
         modules={[Pagination,Autoplay]}
         className="mySwiper"
         >
@@ -30,9 +32,9 @@ function SectionHero() {
         <div className='slide' style={{ backgroundImage: `url(${slide1.src})` }}>
             <div className='over-lay'>
               <motion.div className='slide-text' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
-              <h3 className='' style={{color:'white',fontSize:'3rem',textAlign:'start',textTransform:'capitalize'}}>we provide outstanding<br/> construction service</h3>
+              <h3 className='slide-heading' >we provide outstanding<br/> construction service</h3>
               <p style={{color:'white',textAlign:'start',fontSize:16}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Aenean fermentum odio at diam rutrum,</p>
-              <button style={{backgroundColor:'#fe574f',width:150,border:'none',height:45,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
+              <button style={{backgroundColor:'#fe574f',border:'none',padding:15,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
               </motion.div>
             </div>
 
@@ -44,7 +46,7 @@ function SectionHero() {
               <motion.div className='slide-text' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
               <h3 className='' style={{color:'white',fontSize:'3rem',textAlign:'start',textTransform:'capitalize'}}>we provide outstanding<br/> construction service</h3>
               <p style={{color:'white',textAlign:'start',fontSize:16}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Aenean fermentum odio at diam rutrum,</p>
-              <button style={{backgroundColor:'#fe574f',width:150,border:'none',height:45,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
+              <button style={{backgroundColor:'#fe574f',border:'none',padding:15,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
               </motion.div>
             </div>
 
@@ -56,7 +58,7 @@ function SectionHero() {
               <motion.div className='slide-text'>
               <h3 className='' style={{color:'white',fontSize:'3rem',textAlign:'start',textTransform:'capitalize'}}>we provide outstanding<br/> construction service</h3>
               <p style={{color:'white',textAlign:'start',fontSize:16}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Aenean fermentum odio at diam rutrum,</p>
-              <button style={{backgroundColor:'#fe574f',width:150,border:'none',height:455,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
+              <button style={{backgroundColor:'#fe574f',border:'none',padding:15,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
               </motion.div>
             </div>
 

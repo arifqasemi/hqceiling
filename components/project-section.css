@@ -4,6 +4,11 @@
     margin-bottom: 60px;
 }
 
+.project-heading{
+    font-size:38px;
+    font-weight:700;
+    margin-top:10px
+}
 .project-section .projects{
     margin-top: 50px;
     display: flex;
@@ -51,4 +56,26 @@
 .projects .project:hover .project-title{
     bottom: 15px; /* Position it at the bottom with margin */
     opacity: 1; /* Make it visible */
+}
+
+
+@media(max-width:360px){
+    .project-section {
+        padding: 0px 10px;
+    }
+    .project-section .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-heading{
+        font-size:18px;
+        
+    }
+    .project-section .projects{
+        width: 100%;
+    }
+    .projects .project{
+        width: 100%;
+    }
 }

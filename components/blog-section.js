@@ -14,9 +14,7 @@ function BlogSection() {
       <p style={{marginBottom:20,color:'#797c7f'}}>FROM OUR BLOG</p>
       <h2 style={{fontSize:45}}>Articles About Ceiling
       </h2>
-        <Swiper slidesPerView={3}    pagination={{
-          dynamicBullets: true,clickable:true,el:'.post-custom-pagination'
-        }} autoplay={{  delay: 5000,}} modules={[Pagination,Autoplay]} >
+        <Swiper slidesPerView={3}    pagination={{  dynamicBullets: true,clickable:true,}} autoplay={{  delay: 5000,}} modules={[Pagination,Autoplay]}  breakpoints={{320: {  slidesPerView: 1,},640: {  slidesPerView: 2,},1024: {  slidesPerView: 3,},}}>
           <SwiperSlide >
              <Post/>  
           </SwiperSlide>
@@ -34,7 +32,7 @@ function BlogSection() {
           </SwiperSlide>
            
         </Swiper>
-       <div className="post-custom-pagination "  slot="pagination" style={{height:20}}></div>
+       {/* <div className="post-custom-pagination "  slot="pagination" style={{height:20}}></div> */}
     </div>
   )
 }

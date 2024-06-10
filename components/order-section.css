@@ -5,6 +5,12 @@
     margin-top: 38px;
 
 }
+.order-heading{
+    font-size:38px;
+    font-Weight:700;
+    margin-top:10px;
+    margin-bottom:30px
+}
 
 .order-content{
     display: flex;
@@ -12,4 +18,37 @@
     /* gap: 100px;
     width: 100%; */
     /* background-color: red; */
+}
+.prograss-wrapper{
+   display:flex;
+   flex-direction:column;
+   width:50%;
+   gap:30;
+}
+.order-text{
+    max-width:40%
+}
+
+@media(max-width: 360px){
+    .order-section {
+        padding: 0px 14px;
+      
+    }
+    .order-heading{
+        font-size:18px;
+
+    }
+    .order-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .order-text{
+        max-width: 100%;
+    }
+    .prograss-wrapper{
+        width:100%;
+        margin-top: 30px;
+        gap: 30px;
+     }
 }

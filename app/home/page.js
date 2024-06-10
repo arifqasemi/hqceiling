@@ -25,6 +25,7 @@ export default function Home() {
       <div>
         <SectionHero/>
         <AboutSection/>
+        <Space/>
         <ServiceSection/>
         <ProjectSection/>
         <OrderSection/>

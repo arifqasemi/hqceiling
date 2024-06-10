@@ -6,7 +6,7 @@
     /* align-items: center; */
     width: 350px;
     height: 400px;
-    gap: 12px;
+    gap: 19px;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -14,4 +14,18 @@
 .post-container .post-image{
     width: 350px;
     height: 200px;
+}
+
+@media(max-width: 360px){
+    .post-container {
+        width: 330px;
+    }
+    .post-container .post-image {
+        width: 330px;
+        
+    }
+
+    .swiper-pagination{
+        margin-top: -50px;
+    }
 }

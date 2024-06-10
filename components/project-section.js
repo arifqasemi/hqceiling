@@ -7,7 +7,7 @@ function ProjectSection() {
     <div className='project-section'>
         <div className='heading' style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',gap:10}}>
             <p style={{fontSize:14,color:'#797c7f'}}>RECENT PROJECTS</p>
-            <h3 style={{fontSize:38,fontWeight:700,marginTop:10}}>We Provide you the<br/> Highest Quality Work</h3>
+            <h3 className='project-heading'>We Provide you the<br/> Highest Quality Work</h3>
         </div>
 
         <div className='projects'>

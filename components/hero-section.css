@@ -2,7 +2,7 @@
 .over-lay{
     background-color: rgba(0, 0, 0, 0.39);
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -29,14 +29,16 @@
 }
 
 .slide{
-  height: 100vh;
+  height: 105vh;
 }
-.custom-pagination{
-    width: 100%;
-    /* background-color: red; */
-    position: absolute;
-    left: 200px;
+
+.slide-heading{
+  color:white;
+  font-size:3rem;
+  text-align:start;
+  text-transform:capitalize
 }
+
   html,
   body {
     position: relative;
@@ -70,4 +72,24 @@
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{
   width: 20px;
     border-radius: 0;
+}
+
+
+@media(max-width: 360px){
+  .slide-text {   
+    left: 20px;
+    width: 100%;
+}
+
+.slide{
+  height: 80vh;
+}
+
+.over-lay{
+
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
 }

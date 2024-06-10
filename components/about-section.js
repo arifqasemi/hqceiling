@@ -16,14 +16,14 @@ function AboutSection() {
         <Statistic/>
        <div className='content'>
          <motion.div className='image-container' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
-            <div>
-                <Image src={img1} width={100} height={100} alt='image' style={{height:'80vh',width:'90%'}}/>
+            <div className='about-section-image' style={{width:'100%'}}>
+                <Image src={img1} width={100} height={100} alt='image' className='about-image'/>
             </div>
-            <div style={{display:'flex',alignItems:'flex-end',position:'relative',top:30,left:'-70px'}}>
-                <Image src={img1} width={100} height={100} alt='image' style={{height:'60vh',width:'90%'}}/>
+            <div style={{display:'flex',alignItems:'flex-end',position:'relative',top:30,left:'-70px',width:'100%'}}>
+                <Image src={img1} width={100} height={100} alt='image' className='about-image-two'/>
             </div>
          </motion.div>
-         <motion.div style={{maxWidth:'50%'}} initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
+         <motion.div className='about-text' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
             <p style={{marginBottom:20,color:'#797c7f'}}>About Us</p>
             <h1 style={{fontSize:40,marginBottom:20}}>We make high quality
             <br/>roofing for your homes</h1>

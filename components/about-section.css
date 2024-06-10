@@ -1,11 +1,12 @@
 .about-section{
     background-color: #f9f3ee;
-    height:150vh;
+    height:auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 .statistic{
     display: flex;
@@ -32,6 +33,71 @@
     display: flex;
 }
 
+.about-image{
+    height:80vh;
+    width:90%
+}
+
+.about-image-two{
+   height:60vh;
+   width:90%
+}
+
 .small-icon{
     font-size: 16px;
+}
+
+.about-text{
+   max-width:50%
+}
+.number{
+    font-size: 60px;
+    color: white;
+}
+.statistic-name{
+    font-size: 20px;
+    color: white;
+}
+@media(max-width:360px){
+    .statistic{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #212531;
+        width: 95%;
+        /* gap: 50px; */
+        height: 15vh;
+       
+    }
+
+    .number{
+        font-size: 20px;
+        color: white;
+    }
+    .statistic-name{
+        font-size: 10px;
+        color: white;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image{
+        height:50vh;
+        width:100%
+    }
+    .about-image-two{
+        height:30vh;
+        width:100%
+     }
+     .about-text{
+        max-width:100%;
+        margin-top: 40px;
+    
+     }
+     .about-section-image{
+        width: 100%;
+     }
+
 }

@@ -18,10 +18,10 @@ const slideInVariants = {
 };
 function ServiceSection() {
   return (
-    <div style={{height:'auto',paddingTop:40,paddingLeft:50,display:'flex',flexDirection:'column',gap:80,paddingBottom:20}}>
+    <div className='service-section'>
         <div style={{flex:1}}>
         <p style={{textTransform:'capitalize',color:'#797c7f'}}>services </p>
-      <h1 style={{fontWeight:700,fontSize:40,marginTop:20}}>We can handle all types<br/>
+      <h1 className='service-heading'>We can handle all types<br/>
       of ceiling services</h1>
         </div>
     

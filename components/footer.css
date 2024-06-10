@@ -1,5 +1,5 @@
 .footer{
-    height: 50vh;
+    height: auto;
     background-color: #212531;
     display: flex;
     justify-content: space-between;
@@ -14,4 +14,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media(max-width: 360px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

@@ -10,7 +10,7 @@ import Menu from './menu'
 import { useState } from 'react';
 
 function Header() {
-  const [openModel,setOpenModel] = useState(true)
+  const [openModel,setOpenModel] = useState(false)
   const pathname = usePathname()
 
   const MenuHandler = ()=>{

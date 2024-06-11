@@ -1,11 +1,15 @@
-'use client'
 
 import AboutSection from '@/components/about-section';
 import Image from 'next/image';
 import HeroImage from '../../assets/images/slide1.jpg'
 import OrderSection from '@/components/order-section';
 import Space from '@/components/space';
+import Head from 'next/head';
 
+export const metadata = {
+  title: 'Contact - HQ Ceiling',
+  description: 'Learn more about us on the About Us page.',
+};
 
 function Page() {
   return (

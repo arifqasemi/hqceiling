@@ -11,7 +11,7 @@ import TeamSection from '../../components/team-section'
 import BlogSection from '../../components/blog-section'
 import Space from '../../components/space'
 export const metadata = {
-  title: 'About Us - My Next.js App',
+  title: 'Home - HQ Ceiling',
   description: 'Learn more about us on the About Us page.',
 };
 

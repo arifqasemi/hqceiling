@@ -93,3 +93,24 @@
 }
 
 }
+
+
+@media (max-width: 430px) {
+  .slide-text {   
+    left: 20px;
+    width: 100%;
+}
+
+.slide{
+  height: 80vh;
+}
+
+.over-lay{
+
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+  
+}

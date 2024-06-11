@@ -35,3 +35,14 @@
     }
     
   }
+
+  @media (max-width: 430px) {
+    .navbar .nav-links{
+        display: none;
+    }
+
+    .nav-logo{
+        display: none;
+    }
+    
+  }

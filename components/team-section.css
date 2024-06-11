@@ -92,3 +92,37 @@
         width:40%
     }
 }
+
+
+@media(max-width: 430px){
+
+    .team-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .team-content-container {
+        order: 1;
+      }
+      
+      .team-container {
+        order: 2;
+      }
+      .team-heading{
+        font-size:18px;
+    }
+    .team-container .image-team {
+        width: 290px;
+ 
+    }
+    .team-button{
+        width:40%
+    }
+}

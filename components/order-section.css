@@ -52,3 +52,29 @@
         gap: 30px;
      }
 }
+
+
+@media(max-width: 430px){
+    .order-section {
+        padding: 0px 14px;
+      
+    }
+    .order-heading{
+        font-size:18px;
+
+    }
+    .order-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .order-text{
+        max-width: 100%;
+    }
+    .prograss-wrapper{
+        width:100%;
+        margin-top: 30px;
+        gap: 30px;
+     }
+
+}

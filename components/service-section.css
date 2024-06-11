@@ -95,4 +95,39 @@
         margin-top: -130px;
       
     }
+
+ 
 }
+
+
+@media (max-width: 430px) {
+    .service-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-container .service {
+      width: 100%;
+    }
+    .service-section{
+        padding-left: 10px;
+    }
+
+    .service-heading{
+        font-weight:700;
+        font-size:25px;
+        margin-top:20px
+    }
+    .service-container .service {
+        width: 95%;
+        padding-left:4vh;
+    }
+
+    .flag {
+        height: 18vh;
+        width: 30%;
+        margin-top: -130px;
+      
+    }
+    
+  }

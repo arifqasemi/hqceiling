@@ -5,7 +5,7 @@ import Header from '../components/header'
 import '../assets/lib/fontawesome'
 import Footer from '../components/footer'
 import FooterBottom from '../components/footerBottom'
-
+import Menu from '../components/menu'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

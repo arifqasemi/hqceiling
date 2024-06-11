@@ -9,19 +9,29 @@
 
 .border {
     border-bottom: solid 2px black;
+    transition: ease 1.5s;
 
 }
 
 .navbar .nav-links{
     display: flex;
     /* background-color: white; */
-    width: 60%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
 }
+
+
 .navbar .nav-logo .image{
     width: 100%;
     height: 100%;
+}
+
+.nav-mobile{
+    display:flex;
+    justify-content:'center';
+    align-items:center;
+    display: none;
 }
 
 
@@ -30,19 +40,29 @@
         display: none;
     }
 
-    .nav-logo{
+    /* .nav-logo{
         display: none;
+    } */
+    .nav-mobile{
+        display: flex;
     }
     
   }
 
   @media (max-width: 430px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
     .navbar .nav-links{
         display: none;
     }
 
-    .nav-logo{
+    /* .nav-logo{
         display: none;
+    } */
+    .nav-mobile{
+        display: flex;
     }
     
   }

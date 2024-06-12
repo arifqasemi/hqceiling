@@ -108,6 +108,7 @@
 .slide{
   height: 80vh;
   background-position: center;
+  /* padding-right: 10px; */
 }
 
 .over-lay{

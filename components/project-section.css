@@ -58,7 +58,7 @@
 }
 .project-desc{
     position: absolute;
-    bottom: -70px; 
+    bottom: -50px; 
     opacity: 0;
     transition: all 0.8s ease;
     cursor: pointer; /* Smooth transition */

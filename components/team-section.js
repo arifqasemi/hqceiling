@@ -74,7 +74,7 @@ function TeamSection() {
         <div className='team-content-container'>
         <p style={{color:'#797c7f',color:'#797c7f'}}>Our Team</p>
         <h3 className='team-heading'>Meet Our talent &
-        Professional Roofers</h3>
+        Professional Team</h3>
         <p style={{color:'#797c7f'}}>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         <button className='team-button'>Learn More</button>
         </div>

@@ -16,7 +16,7 @@ function Footer() {
         <h2 style={{color:'white',textAlign:'start'}}>Office</h2>
         <p style={{color:'#9ba2ad',textAlign:'start'}}>Corporate Office-
         175 24th Street, OT- 35 London, UK 265</p>
-        <p style={{color:'white'}}>hadiqasemihqceiling.com</p>
+        <a href='mailto:hadiqasemi@hqceiling.com' style={{color:'white'}}>hadiqasemihqceiling.com</a>
         <p style={{color:'white'}}>+61253645634</p>
       </div>
       <div className='footer-links' style={{flex:1,textAlign:'start',display:'flex',flexDirection:'column',gap:20}}>

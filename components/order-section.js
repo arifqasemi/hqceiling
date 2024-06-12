@@ -15,7 +15,7 @@ function OrderSection() {
           <div style={{height:50,width:50,backgroundColor:'red',borderRadius:'50%',display:'flex',justifyContent:'center',alignItems:'center'}}>
             <FontAwesomeIcon icon={faEnvelope} size={29} style={{marginTop:2,cursor:'pointer',color:'white'}}/>
           </div>
-          <p style={{cursor:'pointer',fontSize:20,fontWeight:500}}>hadiqasemi@hqceiling.com</p>
+          <a href='mailto:hadiqasemi@hqceiling.com' style={{cursor:'pointer',fontSize:20,fontWeight:500}}>hadiqasemi@hqceiling.com</a>
          </div>
         </div>
 

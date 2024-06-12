@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 function Prograss({title,percentage}) {
   return (
-    <div style={{width:'100%'}}>
-      <div style={{display:'flex',flexDirection:'column',gap:8}}>
+    <div style={{width:'100%',marginBottom:10}}>
+      <div style={{display:'flex',flexDirection:'column',gap:10}}>
         <div style={{display:'flex',justifyContent:'space-between',width:'100%',}}>
             <h5 style={{fontSize:18,fontWeight:600}}>{title}</h5>
             <h3 style={{fontSize:18,fontWeight:600}}>{percentage}%</h3>

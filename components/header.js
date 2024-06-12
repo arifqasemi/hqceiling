@@ -14,6 +14,7 @@ function Header() {
   const pathname = usePathname()
 
   const MenuHandler = ()=>{
+    console.log('it should work')
       setOpenModel((preState)=> !preState)
 
   }
@@ -48,7 +49,7 @@ function Header() {
 
       </div>
     </nav>         
-    {openModel && <Menu onClick={MenuHandler}/>}
+    {openModel && <Menu onClickHandler={MenuHandler}/>}
 
     </>
 

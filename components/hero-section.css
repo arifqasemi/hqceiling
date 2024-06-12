@@ -72,11 +72,14 @@
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{
   width: 20px;
     border-radius: 0;
+    background-color: #000;
 }
   
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{
   width: 20px;
     border-radius: 0;
+    background-color: #000;
+
 }
 
 

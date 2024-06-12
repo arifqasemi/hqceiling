@@ -1,6 +1,6 @@
 
 import ContactContent from '@/components/contact';
-import HeroImage from '../../assets/images/slide1.jpg'
+import HeroImage from '../../assets/images/bread-bg.png'
 import OrderSection from '@/components/order-section';
 import Space from '@/components/space';
 import Head from 'next/head';

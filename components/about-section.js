@@ -6,6 +6,8 @@ import img1 from '../assets/images/about-1-1.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
+import Link from 'next/link'
+
 const slideInVariants = {
   hidden: { opacity: 0, y:100 },
   visible: { opacity: 1,y:0, transition: { duration: 0.5 } },
@@ -49,7 +51,9 @@ function AboutSection() {
                  <p>Affordable Price</p>
                </div>
              </div>
-             <button style={{height:40,marginTop:29,backgroundColor:'#fe574f',border:'none',cursor:'pointer',width:150,color:'white',textTransform:'uppercase',fontSize:15,fontWeight:700}}>Learn More</button>
+             <div style={{marginTop:39}}>
+              <Link href='/about' style={{backgroundColor:'#fe574f',border:'none',cursor:'pointer',color:'white',textTransform:'uppercase',fontSize:15,fontWeight:700,padding:15,}}>Learn More</Link>
+             </div>
          </motion.div>
        </div>
     </div>

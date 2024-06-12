@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import HeroImage from '../../assets/images/slide1.jpg'
+import HeroImage from '../../assets/images/bread-bg.png'
 import ServiceSection from '../../components/service-section'
 import Head from 'next/head';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

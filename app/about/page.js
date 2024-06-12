@@ -1,7 +1,7 @@
 
 import AboutSection from '@/components/about-section';
 import Image from 'next/image';
-import HeroImage from '../../assets/images/slide1.jpg'
+import HeroImage from '../../assets/images/bread-bg.png'
 import OrderSection from '@/components/order-section';
 import TeamSection from '@/components/team-section';
 import Space from '@/components/space';

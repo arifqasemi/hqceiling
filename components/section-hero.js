@@ -8,6 +8,8 @@ import { Autoplay,Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/swiper-bundle.css'; 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+
 const slideInVariants = {
   hidden: { opacity: 0, y:100 },
   visible: { opacity: 1,y:0, transition: { duration: 0.5 } },
@@ -34,7 +36,7 @@ function SectionHero() {
               <motion.div className='slide-text' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
               <h3 className='slide-heading' >we provide outstanding<br/> construction service</h3>
               <p style={{color:'white',textAlign:'start',fontSize:16}} className='slide-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum odio at diam rutrum,</p>
-              <button style={{backgroundColor:'#fe574f',border:'none',padding:15,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}>Learn More</button>
+              <button style={{backgroundColor:'#fe574f',border:'none',padding:15,textTransform:'uppercase',fontWeight:700,color:'white',cursor:'pointer'}}><Link href='/about'>Learn More</Link></button>
               </motion.div>
             </div>
 

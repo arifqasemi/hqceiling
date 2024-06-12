@@ -7,6 +7,9 @@ import TeamSection from '@/components/team-section';
 import Space from '@/components/space';
 import Head from 'next/head';
 import Logo from '../../assets/images/roof.png'
+import VideoSection from '@/components/video-section';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 export const metadata = {
   title: 'About Us - HQ Ceiling',
@@ -21,15 +24,20 @@ function Page() {
       </Head>
       <div></div>
    <div style={{height:'60vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',marginTop:-80}}>
-      <div style={{height:'60vh',backgroundColor:'#00000082',display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <div style={{height:'60vh',backgroundColor:'#00000082',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
          <h3 style={{color:'white',fontSize:55,fontWeight:600}}>About Us</h3>
+         <FontAwesomeIcon icon={faAngleDown} style={{color:'white',fontSize:29}}/>
       </div>
     </div>
     <AboutSection/>
     <Space/>
     <OrderSection/>
-    {/* <TeamSection/> */}
+    <VideoSection/>
+    <Space/>
+    <TeamSection/>
+    <Space/>
    </>
+ 
     
 
   )

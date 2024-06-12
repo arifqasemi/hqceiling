@@ -28,7 +28,7 @@ function AboutSection() {
          <motion.div className='about-text' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
             <p style={{marginBottom:20,color:'#797c7f'}}>About Us</p>
             <h1 style={{fontSize:40,marginBottom:20}}>We make high quality
-            <br/>roofing for your homes</h1>
+            <br/>Ceiling for your homes</h1>
             <p style={{color:'#797c7f'}}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies the dictum facilisis thr sem. Imperdiet massa turpis sit Lorem ipsum dolor sit amet</p>
              <div style={{display:'flex',marginTop:20,flexWrap:'wrap',justifyContent:'space-between'}}>
                <div style={{display:'flex'}}>

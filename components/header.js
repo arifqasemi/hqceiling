@@ -22,7 +22,7 @@ function Header() {
     <>
          <nav className='navbar'>
       <div className='nav-logo'>
-        <Image src={logo} height={50} width={50} alt='logo' className='image'/>
+        <Image src={logo} height={50} width={50} alt='logo' className='image' style={{height:70,width:70}}/>
       </div>
  
       <div className='nav-links'>

@@ -23,7 +23,7 @@ function Page() {
         <meta name="description" content={metadata.description} />
       </Head>
       <div></div>
-   <div style={{height:'60vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',marginTop:-80}}>
+   <div style={{height:'70vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',marginTop:-80}}>
       <div style={{height:'60vh',backgroundColor:'#00000082',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
          <h3 style={{color:'white',fontSize:55,fontWeight:600}}>About Us</h3>
          <FontAwesomeIcon icon={faAngleDown} style={{color:'white',fontSize:29}}/>

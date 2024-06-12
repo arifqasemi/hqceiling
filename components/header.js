@@ -44,7 +44,7 @@ function Header() {
 
       </div>
       <div className='nav-mobile' >
-      <FontAwesomeIcon icon={faBars}  onClick={MenuHandler} style={{cursor:'pointer',fontSize:29}}/>
+      <FontAwesomeIcon icon={faBars}  onClick={MenuHandler} style={{cursor:'pointer',fontSize:29,color:'white'}}/>
 
       </div>
     </nav>         

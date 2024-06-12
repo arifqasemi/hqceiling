@@ -17,7 +17,7 @@ function Page() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>
-   <div style={{height:'60vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
+   <div style={{height:'60vh',backgroundImage:`url(${HeroImage.src})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',marginTop:-80}}>
       <div style={{height:'60vh',backgroundColor:'#00000082',display:'flex',justifyContent:'center',alignItems:'center'}}>
          <h3 style={{color:'white',fontSize:55,fontWeight:600}}>Services</h3>
       </div>

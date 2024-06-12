@@ -1,14 +1,16 @@
 .navbar{
     display: flex;
-    background-color: #f9f3ee;
+    background-color: transparent;
     justify-content: space-around;
     height: 80px;
+    z-index: 100;
+    position: sticky;
 }
 
 
 
 .border {
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px white;
     transition: ease 1.5s;
 
 }
@@ -19,6 +21,7 @@
     width: 40%;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 

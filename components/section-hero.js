@@ -14,7 +14,7 @@ const slideInVariants = {
 };
 function SectionHero() {
   return (
-    <div className='slider-container'>
+    <div className='slider-container' >
        <Swiper
         pagination={{
           dynamicBullets: true,clickable:true,

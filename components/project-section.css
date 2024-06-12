@@ -23,7 +23,7 @@
     background-size: cover;
     background-position: center;
     height: 66vh;
-    width: 47%;
+    width: 27%;
     display: flex;
     justify-content: center;
     align-items: flex-end; /* Changed from 'end' to 'flex-end' */
@@ -33,29 +33,45 @@
     margin-bottom: 30px;
     transition: transform 0.3s ease;
 }
-
-.projects .project:hover {
-    transform: scale(1.04); /* Zoom in effect */
-}
-
-.projects .project .project-title{
-    background-color: white;
-    width: 40%;
-    height: 76px;
-    margin-bottom: 30px;
+.project-overlay{
+    background-color:rgba(4, 4, 4, 0.541);
+    height:100%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* opacity: 0; */
+    transition: ease 1.5s;
+
+}
+.projects .project:hover .project-overlay{
+    opacity: 1;
+    background-color:#212531de;
+}
+
+
+.projects .project .project-title{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.project-desc{
     position: absolute;
     bottom: -70px; 
     opacity: 0;
     transition: all 0.8s ease;
     cursor: pointer; /* Smooth transition */
+    width: 100%;
+    
 }
 
-.projects .project:hover .project-title{
-    bottom: 15px; /* Position it at the bottom with margin */
+.projects .project:hover .project-desc{
+    bottom: 130px; /* Position it at the bottom with margin */
     opacity: 1; /* Make it visible */
+ 
+    text-align: center;
+
 }
 
 

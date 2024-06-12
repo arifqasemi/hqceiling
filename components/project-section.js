@@ -17,40 +17,71 @@ function ProjectSection() {
 
         <div className='projects'>
             <div className='project' style={{backgroundImage:`url(${projectImage.src})`}}>
-                <div className='project-title'>
-                    <h4>Ceiling Installation</h4>
+                <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
+              
             </div>
 
 
             <div className='project' style={{backgroundImage:`url(${projectImage1.src})`}}>
-                <div className='project-title' >
-                    <h4>Ceiling Repair</h4>
+            <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Repair</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
             </div>
 
 
             <div className='project' style={{backgroundImage:`url(${projectImage2.src})`}}>
-                <div className='project-title'>
-                    <h4>Ceiling Inspection</h4>
+            <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Replacement</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
             </div>
 
             <div className='project'style={{backgroundImage:`url(${projectImage3.src})`}}>
-                <div className='project-title'>
-                    <h4>Ceiling Renovation</h4>
+            <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Inspection</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
             </div>
 
             <div className='project' style={{backgroundImage:`url(${projectImage4.src})`}}>
-                <div className='project-title'>
-                    <h4>Ceiling Maintenance</h4>
+            <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
             </div>
 
             <div className='project' style={{backgroundImage:`url(${projectImage.src})`}}>
-                <div className='project-title'>
-                    <h4>Ceiling Replacement</h4>
+            <div className='project-overlay' >
+                      <div className='project-title'>
+                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    </div>
+                    <div className='project-desc' style={{color:'#e8e8e8'}}>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
                 </div>
             </div>
         </div>

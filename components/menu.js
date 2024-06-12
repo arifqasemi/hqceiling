@@ -18,7 +18,12 @@ function Menu({onClickHandler}) {
   return (
     <>
          <div className='links-container'>
+         <FontAwesomeIcon icon={faXmark}  style={{cursor:'pointer',opacity:0}} />
          <FontAwesomeIcon icon={faXmark}  style={{cursor:'pointer'}} onClick={onClickHandler}/>
+
+         {/* <div>
+           <Link href='#' className='link' style={{fontSize:16,fontWeight:600}} onClick={onClickHandler}> <FontAwesomeIcon icon={faXmark}  style={{cursor:'pointer',marginRight:10}} />Close</Link>
+        </div> */}
          <div>
            <Link href='/home' className='link' style={{fontSize:16,fontWeight:600}} onClick={onClickHandler}>Home</Link>
            {pathname ==='/home'? <div className='border'></div> :''}

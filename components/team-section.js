@@ -28,7 +28,7 @@ function TeamSection() {
               </div>
 
             </div>
-            <div className='image-team' style={{ backgroundImage: `url(${image1.src})` }}>
+            <div className='image-team' style={{ backgroundImage: `url(${image2.src})` }}>
               <div className='team-overly'>
                 <div>
                    <h3 style={{color:'white'}}>John Leiviw</h3>
@@ -42,7 +42,7 @@ function TeamSection() {
               </div>
 
             </div>
-            <div className='image-team' style={{ backgroundImage: `url(${image1.src})` }}>
+            <div className='image-team' style={{ backgroundImage: `url(${image3.src})` }}>
               <div className='team-overly'>
                 <div>
                    <h3 style={{color:'white'}}>John Leiviw</h3>
@@ -56,7 +56,7 @@ function TeamSection() {
               </div>
 
             </div>
-            <div className='image-team' style={{ backgroundImage: `url(${image1.src})` }}>
+            <div className='image-team' style={{ backgroundImage: `url(${image4.src})` }}>
               <div className='team-overly'>
                 <div>
                    <h3 style={{color:'white'}}>John Leiviw</h3>

@@ -19,7 +19,7 @@
 }
 
 .projects .project{
-    background-image: url('../assets/images/about-1-1.jpg');
+    /* background-image: url('../assets/images/about-1-1.jpg'); */
     background-size: cover;
     background-position: center;
     height: 66vh;

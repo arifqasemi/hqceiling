@@ -8,6 +8,7 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import Link from 'next/link'
 
+
 const slideInVariants = {
   hidden: { opacity: 0, y:100 },
   visible: { opacity: 1,y:0, transition: { duration: 0.5 } },
@@ -15,7 +16,15 @@ const slideInVariants = {
 function AboutSection() {
   return (
     <div className='about-section' >
-        <Statistic/>
+      <div className='about-heading'>
+        <p className='about-sub-heading'>We Offer</p>
+        <h3>Innovative Residential and Commercial Construction Solutions</h3>
+        
+      </div>
+      <div className='about-desc'>
+        <p>With experienced staff and trades across different sectors of the construction industry, IQ Construction is proud to offer a combination of new home, renovation, and commercial construction services. Applying our Intelligent Design and Quality Build mentality to each area, we are able to offer custom design and construction services in each sector. </p>
+      </div>
+        {/* <Statistic/>
        <div className='content'>
          <motion.div className='image-container' initial="hidden" whileInView="visible" variants={slideInVariants} viewport={{ once: true }}>
             <div className='about-section-image' style={{width:'100%'}}>
@@ -55,7 +64,7 @@ function AboutSection() {
               <Link href='/about' style={{backgroundColor:'#fe574f',border:'none',cursor:'pointer',color:'white',textTransform:'uppercase',fontSize:15,fontWeight:700,padding:15,}}>Learn More</Link>
              </div>
          </motion.div>
-       </div>
+       </div> */}
     </div>
   )
 }

@@ -1,12 +1,45 @@
 .service-section{
     height:auto;
-    padding-left:40px;
+    /* padding-left:40px; */
     padding-top:50px;
     display:flex;
     flex-direction:column;
     gap:80px;
-    padding-Bottom:20px
+    padding-Bottom:20px;
+    background-color: #f9f3ee;
 }
+
+.service-section .tabs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.service-section .tabs .tab-active{
+    background-color: #34639b;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.service-section .tabs .tab{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #34639b;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Bree Serif";
+}
+
+
 
 .service-heading{
     font-weight:700;
@@ -38,7 +71,7 @@
 .flag{
     height:18vh;
     width:30%;
-    background-color:red;
+    background-color:#34639b;
     margin-top: -120px;
     display: flex;
     justify-content: center;

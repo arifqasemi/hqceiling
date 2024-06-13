@@ -1,6 +1,6 @@
 .footer{
     height: auto;
-    background-color: #212531;
+    background-color: #1e81b0;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -9,7 +9,7 @@
 
 .footer-bottom{
     height: 10vh;
-    background-color: #212531;
+    background-color: #1e81b0;
     border-top: solid 1px gray;
     display: flex;
     justify-content: center;

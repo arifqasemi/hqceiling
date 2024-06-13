@@ -5,10 +5,11 @@
     /* justify-content: space-; */
     /* align-items: center; */
     width: 350px;
-    height: 400px;
+    height: auto;
     gap: 19px;
     margin-top: 50px;
     cursor: pointer;
+    padding-bottom: 50px;
 }
 
 .post-container .post-image{

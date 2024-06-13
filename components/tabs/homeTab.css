@@ -1,0 +1,27 @@
+.home-tab{
+    display: flex;
+   background-color:#1e81b0;
+   width:100%;
+   height: auto;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0px;
+   gap: 100px;
+
+}
+
+.home-tab-image{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.home-tab-image .tab-image{
+    height: 80%;
+    width: 70%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.home-tab-text{
+    flex: 1;
+}

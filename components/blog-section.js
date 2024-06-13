@@ -11,8 +11,8 @@ import { Autoplay,Pagination } from 'swiper/modules';
 function BlogSection() {
   return (
     <div className='blog-container'>
-      <p style={{marginBottom:20,color:'#797c7f'}}>FROM OUR BLOG</p>
-      <h2 style={{fontSize:45}}>Articles About Ceiling
+      <p style={{marginBottom:20,color:'gray',fontWeight:500}}>News & Updates</p>
+      <h2 style={{fontSize:45,color:'#1e81b0'}}>Recent News
       </h2>
         <Swiper slidesPerView={3}    pagination={{  dynamicBullets: true,clickable:true,}} autoplay={{  delay: 5000,}} modules={[Pagination,Autoplay]}  breakpoints={{320: {  slidesPerView: 1,},640: {  slidesPerView: 2,},1024: {  slidesPerView: 3,},}}>
           <SwiperSlide >

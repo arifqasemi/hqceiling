@@ -25,14 +25,16 @@ export default function Home() {
       <div>
         <SectionHero/>
         <AboutSection/>
-        <Space/>
+        {/* <Space/> */}
         <ServiceSection/>
+        {/* <Space/> */}
         <ProjectSection/>
-        <OrderSection/>
+        {/* <OrderSection/> */}
         <VideoSection/>
+         <Space/>
         <TestimonialSection/>
         <Space/>
-        <TeamSection/>
+        {/* <TeamSection/> */}
         <BlogSection/>
       </div>
     </>

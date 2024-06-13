@@ -6,9 +6,9 @@ function Posts() {
   return (
     <div className='post-container'>
       <Image src={postImage} width={100} height={100} alt='post-image' className='post-image'/>
-      <p style={{paddingLeft:20,textTransform:'uppercase'}}>Installation</p>
-      <h4 style={{fontSize:24,fontWeight:500,textTransform:'capitalize',paddingLeft:20}}>what are all the different  Ceiling boards?</h4>
-      <p style={{paddingLeft:20,}}>November 20 2024   1 Comment</p>
+      <p style={{paddingLeft:20,fontWeight:500,color:'#1e81b0',textAlign:'start'}}>The Importance of Reliable Weatherboard House Builders</p>
+      <p style={{fontSize:12,paddingLeft:20,paddingRight:20,textAlign:'start'}}>That’s a Wrap! As we fast approach the end of 2023, we just want to thank everyone for their support and commitment over the past</p>
+      <p style={{paddingLeft:17,textAlign:'start',fontWeight:500}}>Read More</p>
     </div>
   )
 }

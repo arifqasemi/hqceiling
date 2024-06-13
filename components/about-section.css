@@ -2,12 +2,43 @@
     background-color: #f9f3ee;
     height:auto;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 30px;
 }
+
+.about-heading{
+    flex: 1;
+    padding-left: 10px;
+}
+.about-sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.about-heading h3{
+    font-weight: 600;
+    font-family: "Bree Serif";
+    color: #34639b;
+    font-size: 35px;
+}
+
+
+.about-desc{
+    flex: 1;
+    padding-right: 10px;
+}
+
+.about-desc p{
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+
+
 .statistic{
     display: flex;
     justify-content: space-around;

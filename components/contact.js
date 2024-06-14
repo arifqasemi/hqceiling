@@ -12,13 +12,13 @@ function Contact() {
         <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faLocationDot} style={{color:'white'}}/>
         </div>
-        <p>175 24th Street, OT- 35 Melbourn, EA 265, Australia.</p>
+        <p>Perth · Cannington, WA, Australia · Nedlands, WA, Australia · Armadale, WA, Australia · Gosnells, WA, Australia</p>
       </div>
       <div className='contact-detail'>
         <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faEnvelope} style={{color:'white'}}/>
         </div>
-        <p>hadi@hqceilings.com.au</p>
+        <a href='mailto:hadi@hqceilings.com.au'>hadi@hqceilings.com.au</a>
       </div>
       <div className='contact-detail'>
         <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>

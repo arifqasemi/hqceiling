@@ -18,7 +18,7 @@ function Contact() {
         <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faEnvelope} style={{color:'white'}}/>
         </div>
-        <p>hadiqasemi@hqceiling.com</p>
+        <p>hadi@hqceilings.com.au</p>
       </div>
       <div className='contact-detail'>
         <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>

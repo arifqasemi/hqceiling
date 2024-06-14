@@ -1,7 +1,7 @@
 'use client'
 import './header.css'
 import Image from 'next/image'
-import logo from '../assets/images/logo.svg'
+import logo from '../assets/images/Group.svg'
 import Link from 'next/link'
 import { usePathname} from 'next/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,7 +22,7 @@ function Header() {
     <>
          <nav className='navbar'>
       <div className='nav-logo'>
-        <Image src={logo} height={50} width={50} alt='logo' className='image' style={{height:90,width:210}}/>
+        <Image src={logo} height={50} width={50} alt='logo' className='image' style={{height:70,width:100,marginTop:10}}/>
       </div>
  
       <div className='nav-links'>

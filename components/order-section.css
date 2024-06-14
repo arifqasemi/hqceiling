@@ -1,33 +1,22 @@
 .order-section{
-    padding: 0px 70px;
+    padding: 30px 70px;
     height: auto;
-    margin-bottom: 20px;
-    margin-top: 38px;
-
-}
-.order-heading{
-    font-size:38px;
-    font-Weight:700;
-    margin-top:10px;
-    margin-bottom:30px
-}
-
-.order-content{
     display: flex;
-    justify-content: space-between;
-    /* gap: 100px;
-    width: 100%; */
-    /* background-color: red; */
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f3ee;
+    
+
 }
-.prograss-wrapper{
-   display:flex;
-   flex-direction:column;
-   width:50%;
-   gap:40;
+
+.order-heading{
+        font-family: "Bree Serif",  Sans-serif;
+        color: #34639b;
+    
 }
-.order-text{
-    max-width:40%
-}
+
 
 @media(max-width: 360px){
     .order-section {

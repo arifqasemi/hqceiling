@@ -14,25 +14,12 @@ function BlogSection() {
       <p style={{marginBottom:20,color:'gray',fontWeight:500}}>News & Updates</p>
       <h2 style={{fontSize:45,color:'#1e81b0'}}>Recent News
       </h2>
-        <Swiper slidesPerView={3}    pagination={{  dynamicBullets: true,clickable:true,}} autoplay={{  delay: 5000,}} modules={[Pagination,Autoplay]}  breakpoints={{320: {  slidesPerView: 1,},640: {  slidesPerView: 2,},1024: {  slidesPerView: 3,},}}>
-          <SwiperSlide >
-             <Post/>  
-          </SwiperSlide>
-          <SwiperSlide >
-             <Post/>  
-          </SwiperSlide>
-          <SwiperSlide >
-             <Post/>  
-          </SwiperSlide>
-          <SwiperSlide >
-             <Post/>  
-          </SwiperSlide>
-          <SwiperSlide >
-             <Post/>  
-          </SwiperSlide>
-           
-        </Swiper>
-       {/* <div className="post-custom-pagination "  slot="pagination" style={{height:20}}></div> */}
+      <div className='post-wrapper'>
+         <Post/>
+        <Post/>
+        <Post/>
+      </div>
+       
     </div>
   )
 }

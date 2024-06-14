@@ -5,12 +5,13 @@
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .footer-bottom{
     height: 10vh;
     background-color: #1e81b0;
-    border-top: solid 1px gray;
+    border-top: solid 1px rgb(202, 202, 202);
     display: flex;
     justify-content: center;
     align-items: center;

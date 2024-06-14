@@ -16,10 +16,10 @@ function ProjectSection() {
         </div>
 
         <div className='projects'>
-            <div className='project' style={{backgroundImage:`url(${projectImage.src})`}}>
+            <div className='project' style={{backgroundImage:`url(${projectImage.src})`,transition: 'background-image 0.5s ease-in-out'}}>
                 <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    <h4 className='project-head'>Ceiling Installation</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -32,7 +32,7 @@ function ProjectSection() {
             <div className='project' style={{backgroundImage:`url(${projectImage1.src})`}}>
             <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Repair</h4>
+                    <h4 className='project-head'>Ceiling Repair</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -44,7 +44,7 @@ function ProjectSection() {
             <div className='project' style={{backgroundImage:`url(${projectImage2.src})`}}>
             <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Replacement</h4>
+                    <h4 className='project-head'>Ceiling Replacement</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -55,7 +55,7 @@ function ProjectSection() {
             <div className='project'style={{backgroundImage:`url(${projectImage3.src})`}}>
             <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Inspection</h4>
+                    <h4 className='project-head'>Ceiling Inspection</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -66,7 +66,7 @@ function ProjectSection() {
             <div className='project' style={{backgroundImage:`url(${projectImage4.src})`}}>
             <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    <h4 className='project-head'>Ceiling Installation</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -77,7 +77,7 @@ function ProjectSection() {
             <div className='project' style={{backgroundImage:`url(${projectImage.src})`}}>
             <div className='project-overlay' >
                       <div className='project-title'>
-                    <h4 style={{color:'white',fontSize:30,fontWeight:200}}>Ceiling Installation</h4>
+                    <h4 className='project-head'>Ceiling Installation</h4>
                     </div>
                     <div className='project-desc' style={{color:'#e8e8e8'}}>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>

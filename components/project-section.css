@@ -10,6 +10,13 @@
     font-weight:700;
     margin-top:10px
 }
+
+.project-head{
+    color:white;
+    font-size:30px;
+    font-weight:200;
+    text-align: center;
+}
 .project-section .projects{
     margin-top: 50px;
     display: flex;
@@ -23,7 +30,7 @@
     /* background-image: url('../assets/images/about-1-1.jpg'); */
     background-size: cover;
     background-position: center;
-    height: 66vh;
+    height: 300px;
     width: 27%;
     display: flex;
     justify-content: center;
@@ -60,7 +67,7 @@
 }
 .project-desc{
     position: absolute;
-    bottom: -50px; 
+    bottom: -30px; 
     opacity: 0;
     transition: all 0.8s ease;
     cursor: pointer; /* Smooth transition */
@@ -69,7 +76,7 @@
 }
 
 .projects .project:hover .project-desc{
-    bottom: 130px; /* Position it at the bottom with margin */
+    bottom: 60px; /* Position it at the bottom with margin */
     opacity: 1; /* Make it visible */
  
     text-align: center;

@@ -27,12 +27,13 @@ export default function Home() {
         <AboutSection/>
         <Space/>
         <ServiceSection/>
+        <Space/>
         <ProjectSection/>
         <OrderSection/>
         <VideoSection/>
         <TestimonialSection/>
         <Space/>
-        <TeamSection/>
+        {/* <TeamSection/> */}
         <BlogSection/>
       </div>
     </>

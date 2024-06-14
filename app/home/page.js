@@ -31,8 +31,8 @@ export default function Home() {
         <ProjectSection/>
         {/* <OrderSection/> */}
         <VideoSection/>
-         <Space/>
-        <TestimonialSection/>
+         {/* <Space/> */}
+        {/* <TestimonialSection/> */}
         <Space/>
         {/* <TeamSection/> */}
         <BlogSection/>

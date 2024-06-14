@@ -27,8 +27,8 @@ function Header() {
  
       <div className='nav-links'>
         <div>
-           <Link href='/home' className='link' style={{fontSize:16,fontWeight:300}}>Home</Link>
-           {pathname ==='/home'? <div className='border'></div> :''}
+           <Link href='/' className='link' style={{fontSize:16,fontWeight:300}}>Home</Link>
+           {pathname ==='/'? <div className='border'></div> :''}
         </div>
         <div>
            <Link href='/service' className='link' style={{fontSize:16,fontWeight:300}}>Service</Link>

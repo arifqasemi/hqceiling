@@ -52,115 +52,40 @@
     justify-content: space-around;
 }
 
-.service-container .service{
-    height:50vh;
-    background-color:white;
-    width:30%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    padding-left:5vh;
-    gap:30px;
-    margin-bottom: 100px;
-}
-
-.service:hover .flag{
-    background-color: black;
-}
-
-.flag{
-    height:18vh;
-    width:30%;
-    background-color:#34639b;
-    margin-top: -120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 
-.arrow{
-    transform: translateX(-550%);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-.read-more {
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
 
-.service:hover .read-more {
-    opacity: 1;
-    transform: translateX(0);
-}
-.service:hover .arrow{
-    transform: translateX(0);
-}
 
 
 @media(max-width:360px){
-    .service-container{
-        display: flex;
-        flex-direction: column;
-    }
+   .service-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   }
+   .home-tab-text {
+    text-align: center;
+    padding: 0 10px;
+}
 
-    .service-container .service {
-      width: 100%;
-    }
-    .service-section{
-        padding-left: 10px;
-    }
-
-    .service-heading{
-        font-weight:700;
-        font-size:25px;
-        margin-top:20px
-    }
-    .service-container .service {
-        width: 95%;
-        padding-left:4vh;
-    }
-
-    .flag {
-        height: 18vh;
-        width: 30%;
-        margin-top: -130px;
-      
-    }
+.service-section .tabs {
+   padding: 0 10px;
+}
 
  
 }
 
 
 @media (max-width: 430px) {
-    .service-container{
+
+    .service-section{
         display: flex;
         flex-direction: column;
-    }
-
-    .service-container .service {
-      width: 100%;
-    }
-    .service-section{
-        padding-left: 20px;
-    }
-
-    .service-heading{
-        font-weight:700;
-        font-size:25px;
-        margin-top:20px
-    }
-    .service-container .service {
-        width: 95%;
-        padding-left:4vh;
-    }
-
-    .flag {
-        height: 18vh;
-        width: 30%;
-        margin-top: -130px;
-      
-    }
+        padding: 0;
+       }
+ 
+    
+    
+ 
     
   }

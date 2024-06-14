@@ -25,3 +25,19 @@
 .home-tab-text{
     flex: 1;
 }
+
+
+@media(max-width: 360px){
+    .home-tab{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 430px){
+    .home-tab{
+        flex-direction: column;
+    }
+    .home-tab-text{
+        text-align: center;
+    }
+}

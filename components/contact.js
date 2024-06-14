@@ -9,19 +9,19 @@ function Contact() {
   return (
     <div className='contact-content'>
       <div className='contact-detail'>
-        <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
+        <div className='' style={{backgroundColor:'#34639b',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faLocationDot} style={{color:'white'}}/>
         </div>
         <p>Perth · Cannington, WA, Australia · Nedlands, WA, Australia · Armadale, WA, Australia · Gosnells, WA, Australia</p>
       </div>
       <div className='contact-detail'>
-        <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
+        <div className='' style={{backgroundColor:'#34639b',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faEnvelope} style={{color:'white'}}/>
         </div>
         <a href='mailto:hadi@hqceilings.com.au'>hadi@hqceilings.com.au</a>
       </div>
       <div className='contact-detail'>
-        <div className='' style={{backgroundColor:'red',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
+        <div className='' style={{backgroundColor:'#34639b',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faPhone} style={{color:'white'}}/>
         </div>
         <p>+61 469 392 909</p>

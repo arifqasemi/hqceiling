@@ -30,6 +30,7 @@ export default function Home() {
         <Space/>
         <ProjectSection/>
         <OrderSection/>
+        <Space/>
         <VideoSection/>
         <TestimonialSection/>
         <Space/>

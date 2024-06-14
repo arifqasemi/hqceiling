@@ -43,6 +43,9 @@
     .testimonial-container {
         width: 330px;
     }
+    .testimonial-container .testimonial{
+        gap: 30px;
+    }
 }
 
 
@@ -58,5 +61,8 @@
 
     .testimonial-container {
         width: 330px;
+    }
+    .testimonial-container .testimonial{
+        gap: 30px;
     }
 }

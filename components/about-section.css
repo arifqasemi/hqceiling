@@ -55,7 +55,10 @@
     padding-left: 10px;
    }
   
- 
+   .about-desc p {
+   
+    text-align: center;
+}
 
 }
 
@@ -78,4 +81,11 @@
    .about-desc{
     padding-left: 10px;
    }
+   .about-heading h3 {
+    text-align: center;
+}
+.about-desc p {
+  
+    text-align: center;
+}
   }

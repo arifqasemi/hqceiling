@@ -43,7 +43,7 @@
     
 }
 .project-overlay{
-    background-color:rgba(4, 4, 4, 0.541);
+    /* background-color:rgba(4, 4, 4, 0.541); */
     height:100%;
     width:100%;
     display: flex;
@@ -63,20 +63,18 @@
       display: flex;
     justify-content: center;
     align-items: center;
-  
-}
-.project-desc{
     position: absolute;
     bottom: -30px; 
     opacity: 0;
     transition: all 0.8s ease;
     cursor: pointer; /* Smooth transition */
     width: 100%;
-    
+  
 }
 
-.projects .project:hover .project-desc{
-    bottom: 60px; /* Position it at the bottom with margin */
+
+.projects .project:hover .project-title{
+    bottom: 150px; /* Position it at the bottom with margin */
     opacity: 1; /* Make it visible */
  
     text-align: center;

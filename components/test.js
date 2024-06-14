@@ -6,7 +6,7 @@ import './test.css';
 
 import {  Autoplay,Pagination } from 'swiper/modules';
 import { useEffect, useState } from 'react';
-import slide2 from '../assets/images/house.jpg'
+import slide2 from '../assets/images/slide-image.jpg'
 import Link from 'next/link';
 
 
@@ -30,6 +30,7 @@ export default function Test() {
         <SwiperSlide>
           <div className='show' style={{ backgroundImage: `url(${slide2.src})` ,height:'100%',width:'100%',}}>
            <div className='show-overlay'>
+           <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
             <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
             <Link href='#' className="find-more-btn">Find Out More</Link>
            </div>
@@ -38,7 +39,8 @@ export default function Test() {
         <SwiperSlide>
         <div className='show' style={{ backgroundImage: `url(${slide2.src})` ,height:'100%',width:'100%',}}>
         <div className='show-overlay'>
-        <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
+          <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
+        <h3 className='slide-head'>Commercially Compliant <br/>Builders</h3>
         <Link href='#' className="find-more-btn">Find Out More</Link>
         </div>
         </div>
@@ -46,6 +48,7 @@ export default function Test() {
          <SwiperSlide>
          <div className='show' style={{ backgroundImage: `url(${slide2.src})` ,height:'100%',width:'100%',}}>
          <div className='show-overlay'>
+         <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
          <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
          <Link href='#' className="find-more-btn">Find Out More</Link>
         </div>
@@ -54,6 +57,7 @@ export default function Test() {
          <SwiperSlide>
          <div className='show' style={{ backgroundImage: `url(${slide2.src})` ,height:'100%',width:'100%',}}>
          <div className='show-overlay'>
+         <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
          <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
          <Link href='#' className='find-more-btn'>Find Out More</Link>
           </div>

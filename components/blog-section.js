@@ -2,11 +2,7 @@
 import React from 'react'
 import './blog-section.css'
 import Post from './posts'
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-import { Autoplay,Pagination } from 'swiper/modules';
-// import 'swiper/css/pagination';
-// import 'swiper/swiper-bundle.css'; 
+import AllPosts from '../assets/data/posts'
 
 function BlogSection() {
   return (
@@ -15,9 +11,10 @@ function BlogSection() {
       <h2 style={{fontSize:45,color:'#1e81b0'}}>Recent News
       </h2>
       <div className='post-wrapper'>
-         <Post/>
+        {AllPosts.map((post)=>(<Post title={post.title} description={post.description} image={post.image}/>))}
+         {/* <Post/>
         <Post/>
-        <Post/>
+        <Post/> */}
       </div>
        
     </div>

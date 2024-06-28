@@ -87,6 +87,10 @@
   .show-container{
     height:80vh;
   }
+  .show-overlay {
+
+    padding-left: 30px;
+}
 }
 
 
@@ -94,4 +98,9 @@
   .show-container{
     height:80vh;
   }
+
+  .show-overlay {
+
+    padding-left: 30px;
+}
 }

@@ -40,7 +40,7 @@ function ServiceSection() {
       <div className='tabs'>
         <button className={homeTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'home')}>Home</button>
         <button className={renotionTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'renovation')}>Renovation</button>
-        <button className={commercialTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'commercial')}>Commercial</button>
+        <button className={commercialTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'commercial')}>Ceilings</button>
       </div>
         {  homeTab && <div className='revnovation-tab'>
               <HomeTab/>

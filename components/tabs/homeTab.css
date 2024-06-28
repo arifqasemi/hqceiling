@@ -26,6 +26,14 @@
     flex: 1;
 }
 
+.services{
+    margin-top: 7px;
+}
+
+.services ul{
+    margin-left: 20px;
+}
+
 
 @media(max-width: 360px){
     .home-tab{

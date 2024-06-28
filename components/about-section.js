@@ -11,8 +11,8 @@ function AboutSection() {
   return (
     <div className='about-section' >
       <div className='about-heading'>
-        <p className='about-sub-heading'>We Offer</p>
-        <h3 className='about-head'>Innovative Residential and Commercial Construction Solutions</h3>
+        <p className='about-sub-heading'>We specialize</p>
+        <h3 className='about-head'>in delivering high-quality ceiling solutions for residential</h3>
       </div>
       <div className='about-desc'>
         <p>With experienced staff and trades across different sectors of the construction industry, HQ Construction is proud to offer a combination of new home, renovation, and commercial construction services. Applying our Intelligent Design and Quality Build mentality to each area, we are able to offer custom design and construction services in each sector. </p>

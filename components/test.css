@@ -60,6 +60,7 @@
    justify-content: center;
    align-items: start;
    padding-left: 50px;
+   gap: 20px;
 }
 
 .slide-head{

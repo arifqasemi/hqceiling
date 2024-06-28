@@ -12,7 +12,7 @@ function Contact() {
         <div className='' style={{backgroundColor:'#34639b',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>
         <FontAwesomeIcon icon={faLocationDot} style={{color:'white'}}/>
         </div>
-        <p>Perth · Cannington, WA, Australia · Nedlands, WA, Australia · Armadale, WA, Australia · Gosnells, WA, Australia</p>
+        <p>Perth · Cannington, WA, Australia · 12 Tijuana Road Armadale WA 6112</p>
       </div>
       <div className='contact-detail'>
         <div className='' style={{backgroundColor:'#34639b',width:'15%',height:'20%',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'50%'}}>

@@ -7,7 +7,7 @@ import './test.css';
 import {  Autoplay,Pagination } from 'swiper/modules';
 import { useEffect, useState } from 'react';
 import slide2 from '../assets/images/slide-image.jpg'
-import slide3 from '../assets/images/ceiling-image.jpg'
+import slide3 from '../assets/images/church-ceiling.jpg'
 import slide4 from '../assets/images/ceiling-image-2.jpg'
 import slide5 from '../assets/images/ceiling-hero.jpg'
 
@@ -45,8 +45,8 @@ export default function Test() {
         <div className='show' style={{ backgroundImage: `url(${slide4.src})` ,height:'100%',width:'100%',}}>
         <div className='show-overlay'>
           <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
-        <h3 className='slide-head'>Commercially Compliant <br/>Builders</h3>
-        <p style={{color:'white',textAlign:'start'}}>To enhance the aesthetic and functional value of every space we touch,<br/> through exceptional ceiling construction services.</p>
+        <h3 className='slide-head'>premier home building <br/>company</h3>
+        <p style={{color:'white',textAlign:'start'}}>Building your dream home, one brick at a time. At HQ Ceiling, we are dedicated<br/> to turning your vision into reality with expert craftsmanship and personalized service.</p>
         <Link href='#' className="find-more-btn">Find Out More</Link>
         </div>
         </div>

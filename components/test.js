@@ -37,7 +37,7 @@ export default function Test() {
            <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
             <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
             <p style={{color:'white',textAlign:'start'}}>To enhance the aesthetic and functional value of every space we touch,<br/> through exceptional ceiling construction services.</p>
-            <Link href='#' className="find-more-btn">Find Out More</Link>
+            <Link href='/service' className="find-more-btn">Find Out More</Link>
            </div>
           </div>
         </SwiperSlide>
@@ -47,7 +47,7 @@ export default function Test() {
           <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
         <h3 className='slide-head'>premier home building <br/>company</h3>
         <p style={{color:'white',textAlign:'start'}}>Building your dream home, one brick at a time. At HQ Ceiling, we are dedicated<br/> to turning your vision into reality with expert craftsmanship and personalized service.</p>
-        <Link href='#' className="find-more-btn">Find Out More</Link>
+        <Link href='/service' className="find-more-btn">Find Out More</Link>
         </div>
         </div>
           </SwiperSlide>       
@@ -57,7 +57,7 @@ export default function Test() {
          <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
          <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
          <p style={{color:'white',textAlign:'start'}}>To enhance the aesthetic and functional value of every space we touch,<br/> through exceptional ceiling construction services.</p>
-         <Link href='#' className="find-more-btn">Find Out More</Link>
+         <Link href='/service' className="find-more-btn">Find Out More</Link>
         </div>
         </div>
          </SwiperSlide>
@@ -67,7 +67,7 @@ export default function Test() {
          <p style={{color:'white',textTransform:'uppercase',marginBottom:10,fontSize:13,fontWeight:600}}>Intellegent Design, Quality build</p>
          <h3 className='slide-head'>Custom builder<br/> in Perth</h3>
          <p style={{color:'white',textAlign:'start'}}>To enhance the aesthetic and functional value of every space we touch,<br/> through exceptional ceiling construction services.</p>
-         <Link href='#' className='find-more-btn'>Find Out More</Link>
+         <Link href='/service' className='find-more-btn'>Find Out More</Link>
           </div>
           </div>
           </SwiperSlide>      

@@ -11,6 +11,7 @@
 .about-section .about-section-wrapper{
     display: flex;
     flex-direction: row;
+    padding: 0px 20px;
 }
 
 

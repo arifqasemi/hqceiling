@@ -6,86 +6,9 @@
     flex-direction:column;
     gap:80px;
     padding-Bottom:20px;
-    background-color: #f9f3ee;
+    background-color: white;
 }
 
-.service-section .tabs{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 40px;
+.service-section .service-section-wrapper{
+    background-image: url('../assets/images/our-service-bg.png');
 }
-
-.service-section .tabs .tab-active{
-    background-color: #34639b;
-    height: 40px;
-    width: 120px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    font-family: "Bree Serif";
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.service-section .tabs .tab{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    color: #34639b;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Bree Serif";
-}
-
-
-
-.service-heading{
-    font-weight:700;
-    font-size:40px;
-    margin-top:20px
-}
-.service-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-
-
-
-
-@media(max-width:360px){
-   .service-section{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-   }
-   .home-tab-text {
-    text-align: center;
-    padding: 0 10px;
-}
-
-.service-section .tabs {
-   padding: 0 10px;
-}
-
- 
-}
-
-
-@media (max-width: 430px) {
-
-    .service-section{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-       }
- 
-    
-    
- 
-    
-  }

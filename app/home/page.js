@@ -26,7 +26,7 @@ export default function Home() {
         <HomeHeroSection/>
         <AboutSection/>
         {/* <Space/> */}
-        {/* <ServiceSection/> */}
+        <ServiceSection/>
         {/* <Space/> */}
         {/* <ProjectSection/> */}
         {/* <OrderSection/> */}

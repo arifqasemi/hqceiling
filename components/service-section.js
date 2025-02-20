@@ -37,20 +37,11 @@ function ServiceSection() {
 
   return (
     <div className='service-section'>
-      <div className='tabs'>
-        <button className={homeTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'home')}>Home</button>
-        <button className={renotionTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'renovation')}>Renovation</button>
-        <button className={commercialTab ? 'tab-active' :'tab'} onClick={tabHandler.bind(this,'commercial')}>Ceilings</button>
-      </div>
-        {  homeTab && <div className='revnovation-tab'>
-              <HomeTab/>
-            </div>}
-        { renotionTab &&  <div className='revnovation-tab'>
-            <RenovationTab/>
-            </div>}
-        { commercialTab && <div className='commercial-tab'>
-        <CommercialTab/>
-          </div>}
+     <div className='service-section-wrapper'>
+        <h3>Our services  </h3>
+        <h2>Our construction services</h2>
+        <p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>
+     </div>
 
     </div>
   )

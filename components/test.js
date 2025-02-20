@@ -30,7 +30,7 @@ export default function Test() {
 
   return (
     <div className='show-container'>
-      <Swiper key={key}    onReachEnd={handleReachEnd}   direction={direction}   pagination={{     clickable: true,   }}   modules={[Pagination,Autoplay]}   className="mySwiper"   autoplay={{     delay: 5000,     disableOnInteraction: false,   }}   speed={900} >
+      {/* <Swiper key={key}    onReachEnd={handleReachEnd}   direction={direction}   pagination={{     clickable: true,   }}   modules={[Pagination,Autoplay]}   className="mySwiper"   autoplay={{     delay: 5000,     disableOnInteraction: false,   }}   speed={900} >
         <SwiperSlide>
           <div className='show' style={{ backgroundImage: `url(${slide3.src})` ,height:'100%',width:'100%',}}>
            <div className='show-overlay'>
@@ -71,7 +71,7 @@ export default function Test() {
           </div>
           </div>
           </SwiperSlide>      
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 }

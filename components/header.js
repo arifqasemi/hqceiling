@@ -20,26 +20,26 @@ function Header() {
   }
   return (
     <>
-         <nav className='navbar'>
+         <nav className='navbar' style={{borderBottom:'solid 1px #bdbdbd96'}}>
       <div className='nav-logo'>
-        <Image src={logo} height={50} width={50} alt='logo' className='image' style={{height:70,width:100,marginTop:10}}/>
+        <Image src={logo} height={50} width={50} alt='logo' className='image' style={{height:40,width:100}}/>
       </div>
  
       <div className='nav-links'>
         <div>
-           <Link href='/' className='link' style={{fontSize:16,fontWeight:300}}>Home</Link>
+           <Link href='/' className='link' style={{fontSize:16,fontWeight:500}}>Home</Link>
            {pathname ==='/'? <div className='border'></div> :''}
         </div>
         <div>
-           <Link href='/service' className='link' style={{fontSize:16,fontWeight:300}}>Service</Link>
+           <Link href='/service' className='link' style={{fontSize:16,fontWeight:500}}>Service</Link>
            {pathname ==='/service'? <div className='border'></div> :''}
         </div>
         <div>
-           <Link href='/about' className='link' style={{fontSize:16,fontWeight:300}}>About</Link>
+           <Link href='/about' className='link' style={{fontSize:16,fontWeight:500}}>About</Link>
            {pathname ==='/about'? <div className='border'></div> :''}
         </div>
         <div>
-           <Link href='/contact' className='link' style={{fontSize:16,fontWeight:300}}>Contact</Link>
+           <Link href='/contact' className='link' style={{fontSize:16,fontWeight:500}}>Contact</Link>
            {pathname ==='/contact'? <div className='border'></div> :''}
         </div>
 

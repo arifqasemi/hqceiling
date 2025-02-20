@@ -8,84 +8,18 @@
     padding-bottom: 30px;
 }
 
-.about-heading{
-    flex: 1;
-    padding-left: 10px;
-}
-.about-sub-heading{
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.about-heading h3{
-    font-weight: 600;
-    font-family: "Bree Serif";
-    color: #34639b;
-    font-size: 35px;
-}
-
-
-.about-desc{
-    flex: 1;
-    padding-right: 10px;
-}
-
-.about-desc p{
-    color: #000;
-    font-size: 16px;
-    line-height: 25px;
-}
-
-
-@media(max-width:360px){
-    .about-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-   
-    }
-   .about-heading{
-    /* padding: 0 20px; */
+.about-section .about-section-wrapper{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
-   .about-desc{
-    padding-left: 10px;
-   }
-  
-   .about-desc p {
-   
-    text-align: center;
-}
-
+    flex-direction: row;
 }
 
 
-@media (max-width: 430px) {
+.about-section .about-section-wrapper .about-image{
+    flex: 1;
 
-    .about-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-   
-    }
-   .about-heading{
-    /* padding: 0 20px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
-   .about-desc{
-    padding-left: 10px;
-   }
-   .about-heading h3 {
-    text-align: center;
 }
-.about-desc p {
-  
-    text-align: center;
+
+.about-section .about-section-wrapper .about-content{
+    flex: 1;
+
 }
-  }

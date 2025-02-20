@@ -1,0 +1,24 @@
+.hero-container{
+height: auto;
+padding: 40px;
+
+}
+
+.hero-container .hero-wrapper{
+    background-image: url('../assets/images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed; 
+}
+
+.hero-container .hero-wrapper .navbar{
+    width: 100%;
+    padding: 20px 0px;
+
+}

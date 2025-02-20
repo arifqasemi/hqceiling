@@ -1,7 +1,7 @@
 .hero-container{
 height: auto;
 padding: 40px;
-
+background-color: white;
 }
 
 .hero-container .hero-wrapper{

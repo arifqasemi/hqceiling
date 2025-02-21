@@ -39,8 +39,11 @@ function ServiceSection() {
     <div className='service-section'>
      <div className='service-section-wrapper'>
         <h3>Our services  </h3>
-        <h2>Our construction services</h2>
-        <p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>
+        <h2 style={{fontSize:56,fontWeight:800}}>Our construction services</h2>
+        <p style={{fontSize:16,marginTop:20}}>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>
+        <div className='service'>
+          <p>Building Construction</p>
+        </div>
      </div>
 
     </div>

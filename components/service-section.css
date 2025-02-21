@@ -9,6 +9,26 @@
     background-color: white;
 }
 
-.service-section .service-section-wrapper{
-    background-image: url('../assets/images/our-service-bg.png');
+.service-section .service-section-wrapper {
+    background-image: linear-gradient(to bottom left, hsla(190, 100%, 82%, 0.379), hsla(190, 100%, 82%, 0.758), hsl(190, 100%, 82%) 70%), 
+                      url('../assets/images/our-service-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+}
+
+
+
+.service-section .service-section-wrapper .service{
+    background-image: url('../assets/images/service-img-3.jpg');
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 40px;
 }

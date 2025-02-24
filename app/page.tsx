@@ -10,6 +10,7 @@ import TestimonialSection from '../components/testimonial-section'
 import TeamSection from '../components/team-section'
 import BlogSection from '../components/blog-section'
 import Space from '../components/space'
+import WhyChooseUs from '../components/why-choose-us'
 import HomeHeroSection from '@/components/hero-section';
 export const metadata = {
   title: 'Home - HQ Ceiling',
@@ -28,7 +29,11 @@ export default function Home() {
         <AboutSection/>
         {/* <Space/> */}
         <ServiceSection/>
+        <Space/>
+        <WhyChooseUs/>
+        <Space/>
         {/* <Space/>
+        
         <ProjectSection/>
         <OrderSection/>
         <Space/>

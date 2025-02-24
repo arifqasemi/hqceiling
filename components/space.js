@@ -2,7 +2,7 @@ import React from 'react'
 
 function Space() {
   return (
-    <div style={{backgroundColor:'#f9f3ee',height:'20vh'}}>
+    <div style={{backgroundColor:'white',height:'20vh'}}>
       
     </div>
   )

@@ -20,7 +20,7 @@
 
 .why-choose-us-section .why-choose-us-wrapper .reasons .reason{
     width: calc(33.33% - 20px);
-    border:  solid  1px grey;
+    border:  solid  1px rgb(189, 189, 189);
     display: flex;
     flex-direction: column;
     

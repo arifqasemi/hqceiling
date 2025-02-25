@@ -32,6 +32,7 @@ export default function Home() {
         <Space/>
         <WhyChooseUs/>
         <Space/>
+        <ProjectSection/>
         {/* <Space/>
         
         <ProjectSection/>

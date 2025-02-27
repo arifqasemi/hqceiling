@@ -41,10 +41,10 @@ function Projects() {
         <h2 style={{fontSize:56,fontWeight:800,marginBottom:20}}>Explore our diverse range of projects</h2>
         <p style={{fontSize:16,marginTop:10,color:'#667282',width:'60%',textAlign:'center'}}>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>
         <div className='projects' style={{marginTop:30}}>
-        <div className='project' style={{backgroundImage:'url("/images/service-img-1.jpg")'}}>
+        <div className='project' style={{backgroundImage:'url("/images/our-project-1-1.jpg")'}}>
         <div className="overlay">
           <div className='project-content'>
-            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Building Construction</h3>
+            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Aspen Heights</h3>
             <p style={{color:'white'}}>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
              <div className='project-cta' style={{display:'flex',alignItems:'center',cursor:'pointer'}}>
                <h4 style={{color:'#ffb703',fontWeight:700,marginTop:10,marginRight:10}}>View More</h4>
@@ -54,10 +54,10 @@ function Projects() {
         </div>
           
         </div>
-        <div className='project' style={{backgroundImage:'url("/images/service-img-2.jpg")'}}>
+        <div className='project' style={{backgroundImage:'url("/images/our-project-3.jpg")'}}>
         <div className="overlay">
            <div className='project-content'>
-            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Architecture Design</h3>
+            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Forest Hill Towers</h3>
             <p style={{color:'white'}}>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
              <div className='project-cta' style={{display:'flex',alignItems:'center',cursor:'pointer'}}>
                <h4 style={{color:'#ffb703',fontWeight:700,marginTop:10,marginRight:10}}>View More</h4>
@@ -67,10 +67,10 @@ function Projects() {
         </div>
          
         </div>
-        <div className='project' style={{backgroundImage:'url("/images/service-img-3.jpg")'}}>
+        <div className='project' style={{backgroundImage:'url("/images/church-ceiling.jpg")'}}>
         <div className="overlay">
           <div className='project-content'>
-            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Building Renovation</h3>
+            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Church Ceiling</h3>
             <p style={{color:'white'}}>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
              <div className='project-cta' style={{display:'flex',alignItems:'center',cursor:'pointer'}}>
                <h4 style={{color:'#ffb703',fontWeight:700,marginTop:10,marginRight:10}}>View More</h4>
@@ -80,10 +80,10 @@ function Projects() {
         </div>
           
         </div>
-        <div className='project' style={{backgroundImage:'url("/images/service-img-4.jpg")'}}>
+        <div className='project' style={{backgroundImage:'url("/images/our-project-4.jpg")'}}>
         <div className="overlay">
           <div className='project-content'>
-            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Building Maintenance</h3>
+            <h3 style={{fontSize:24,fontWeight:700,marginBottom:20,color:'white'}}>Parkview Plaza</h3>
             <p style={{color:'white'}}>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
              <div className='project-cta' style={{display:'flex',alignItems:'center',cursor:'pointer'}}>
                <h4 style={{color:'#ffb703',fontWeight:700,marginTop:10,marginRight:10}}>View More</h4>
@@ -97,7 +97,7 @@ function Projects() {
 
         <div className='btn' style={{marginTop:50,backgroundColor:'#ffb703',padding:'20px 30px',borderRadius:15,cursor:'pointer'}}>
           <div className='btn-wrapper' style={{display:'flex'}}>
-              <h3 style={{color:'white'}}>View All Services</h3>
+              <h3 style={{color:'white'}}>View All Projects</h3>
               <FontAwesomeIcon icon={faCircleArrowRight} color='white' style={{marginTop:5,marginLeft:10}}/>
           </div>
         </div>

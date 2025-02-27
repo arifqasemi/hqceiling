@@ -12,6 +12,7 @@ import BlogSection from '../components/blog-section'
 import Space from '../components/space'
 import WhyChooseUs from '../components/why-choose-us'
 import HomeHeroSection from '@/components/hero-section';
+import WorkTogather from '../components/work-togather'
 export const metadata = {
   title: 'Home - HQ Ceiling',
   description: 'Learn more about us on the About Us page.',
@@ -33,7 +34,9 @@ export default function Home() {
         <WhyChooseUs/>
         <Space/>
         <ProjectSection/>
+        <WorkTogather/>
         {/* <Space/>
+        <
         
         <ProjectSection/>
         <OrderSection/>

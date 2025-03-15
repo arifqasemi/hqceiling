@@ -4,7 +4,7 @@
     display:flex;
     flex-direction:column;
     gap:80px;
-    background-color: #12223b;
+    /* background-color: #12223b; */
     background-image: url("https://demo.awaikenthemes.com/builtup/wp-content/uploads/2024/06/cta-box-bg.png");
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -17,8 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: left bottom;
+ 
 
 }
 

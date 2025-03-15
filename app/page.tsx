@@ -35,6 +35,7 @@ export default function Home() {
         <Space/>
         <ProjectSection/>
         <WorkTogather/>
+        <Space/>
         {/* <Space/>
         <
         

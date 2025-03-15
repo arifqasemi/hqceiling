@@ -10,7 +10,23 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
   return (
     <div className='footer'>
-      <div className='footer-office' style={{flex:1,textAlign:'start',display:'flex',flexDirection:'column',gap:10,alignItems:'start'}}>
+      <div className='footer-wrapper'>
+        <div className='footer-company-logo'>
+
+        </div>
+
+        <div className='footer-company-service'>
+        </div>
+
+        <div className='footer-company-pages'>
+        </div>
+
+        <div className='footer-company-contacts'>
+        </div>
+
+
+      </div>
+      {/* <div className='footer-office' style={{flex:1,textAlign:'start',display:'flex',flexDirection:'column',gap:10,alignItems:'start'}}>
         <h2 style={{color:'white',textAlign:'start'}}>Get In Touch</h2>
         <div style={{display:'flex',gap:20}}>
         <Link href='https://www.facebook.com/hqceilings?mibextid=ZbWKwL'><FontAwesomeIcon icon={faFacebookF} style={{color:'white',cursor:'pointer'}}/></Link>
@@ -29,7 +45,7 @@ function Footer() {
       <Link href='/about'><p style={{color:'white'}}>About</p></Link>
       <Link href='/service'><p style={{color:'white'}}>Service</p></Link>
       <Link href='/contact'><p style={{color:'white'}}>Contact</p></Link>
-      </div>
+      </div> */}
 
     </div>
   )
